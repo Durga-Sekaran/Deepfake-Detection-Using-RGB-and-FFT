@@ -1,0 +1,105 @@
+# ==========================================
+# PYTHON CACHE FILES
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+venv/
+env/
+.venv/
+ENV/
+
+# ==========================================
+# DATASETS AND VIDEO FILES
+# ==========================================
+dataset/
+datasets/
+data/
+frames/
+crops/
+extracted_frames/
+processed_data/
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# ==========================================
+# FFT AND GENERATED FEATURE FILES
+# ==========================================
+fft_features/
+*.dat
+*.memmap
+*.npy
+*.npz
+
+# ==========================================
+# MODEL CHECKPOINTS AND WEIGHTS
+# ==========================================
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.safetensors
+
+# ==========================================
+# GENERATED OUTPUTS
+# ==========================================
+outputs/
+runs/
+logs/
+results/
+predictions/
+
+# ==========================================
+# JUPYTER NOTEBOOK
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# IDE AND EDITOR SETTINGS
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+
+# ==========================================
+# TEST CACHE AND COVERAGE
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+desktop.ini
+.DS_Store
+Thumbs.db
+
